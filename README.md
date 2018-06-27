@@ -26,8 +26,7 @@
 |AloneMonkey|目录和45页|3.4.2 使用Cycript越狱|[issue7](https://github.com/AloneMonkey/iOSREBook-issues/issues/7)|3.4.2 越狱使用Cycript|语义有误，不是使用Cycript越狱，而是在越狱环境下使用Cycript|
 |mail2chensh|60页|网卡会过滤目标地址而不是自己的数据包|[issue10](https://github.com/AloneMonkey/iOSREBook-issues/issues/10)|网卡会过滤目标地址不是自己的数据包|多了个字|
 |NSLogxiaoyu3|113页|(不知道这是不是Hopper解析64位`__objc_ivar`的bug，Hopper对32位和IDA的解析结果都是正常的。)|[issue9](https://github.com/AloneMonkey/iOSREBook-issues/issues/9)|(经验证，在用 Hopper 打开文件时取消勾选“Start automatic analysis after the file is loaded”复选框即可正常显示)|见issue。|
-|ko1o|115页12行|经分析，0x10002bbcc处久是Block函数的实现。|[issue5](https://github.com/AloneMonkey/iOSREBook-issues/issues/5)|经分析，0x10002bbcc处就是Block函
-数的实现。|错别字|
+|ko1o|115页12行|经分析，0x10002bbcc处久是Block函数的实现。|[issue5](https://github.com/AloneMonkey/iOSREBook-issues/issues/5)|经分析，0x10002bbcc处就是Block函数的实现。|错别字|
 |piaoyunsoft|117页倒数第6行|在这里可以以选择直接地址或者文件偏移的方式进行跳转|[issue17](https://github.com/AloneMonkey/iOSREBook-issues/issues/17)|在这里可以直接选择地址或者文件偏移的方式进行跳转|语句不通|
 | NSLogxiaoyu3 |175页第8行|要将文件目录放到 /Library/Application\Support/TweakDemo/ 文件夹下面|[issue14](https://github.com/AloneMonkey/iOSREBook-issues/issues/14)|要将文件目录放到 /Library/Application\ Support/TweakDemo/ 文件夹下面|目录路径中少个空格|
 |NSLogxiaoyu3|179页|Logs.xm: 和Theos中的文件一样，直接写Logs语法即可，在编译时会通过logos.pl转换成Logs.mm。|[issue13](https://github.com/AloneMonkey/iOSREBook-issues/issues/13)|Logos.xm: 和Theos中的文件一样，直接写Logos语法即可，在编译时会通过logos.pl转换成Logos.mm。|Logs改成成Logos|
