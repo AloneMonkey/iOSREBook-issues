@@ -28,11 +28,14 @@
 |NSLogxiaoyu3|113页|(不知道这是不是Hopper解析64位`__objc_ivar`的bug，Hopper对32位和IDA的解析结果都是正常的。)|[issue9](https://github.com/AloneMonkey/iOSREBook-issues/issues/9)|(经验证，在用 Hopper 打开文件时取消勾选“Start automatic analysis after the file is loaded”复选框即可正常显示)|见issue。|
 |ko1o|115页12行|经分析，0x10002bbcc处久是Block函数的实现。|[issue5](https://github.com/AloneMonkey/iOSREBook-issues/issues/5)|经分析，0x10002bbcc处就是Block函数的实现。|错别字|
 |piaoyunsoft|117页倒数第6行|在这里可以以选择直接地址或者文件偏移的方式进行跳转|[issue17](https://github.com/AloneMonkey/iOSREBook-issues/issues/17)|在这里可以直接选择地址或者文件偏移进行跳转|语句不通|
+|NinthKnight|168页|sudo clone --recursive https//github.com/theos/theos.git /opt/theos|[issue7](https://github.com/AloneMonkey/iOSREBook/issues/7)|sudo git clone --recursive https//github.com/theos/theos.git /opt/theos|少个git|
 | NSLogxiaoyu3 |175页第8行|要将文件目录放到 /Library/Application\Support/TweakDemo/ 文件夹下面|[issue14](https://github.com/AloneMonkey/iOSREBook-issues/issues/14)|要将文件目录放到 /Library/Application\ Support/TweakDemo/ 文件夹下面|目录路径中少个空格|
 |NSLogxiaoyu3|179页|Logs.xm: 和Theos中的文件一样，直接写Logs语法即可，在编译时会通过logos.pl转换成Logs.mm。|[issue13](https://github.com/AloneMonkey/iOSREBook-issues/issues/13)|Logos.xm: 和Theos中的文件一样，直接写Logos语法即可，在编译时会通过logos.pl转换成Logos.mm。|Logs改成成Logos|
+|Adam大魔王|217页|当前模块基地址为0x00000000000d4000，|无|当前模块基地址为0x0000000000094000|基地址写错|
 |ko1o|224页倒数第6行|如图6-13所示|[issue4](https://github.com/AloneMonkey/iOSREBook-issues/issues/4)|如图6-14所示|图的编号写错了|
 |piaoyunsoft|226页14行|也就是 0x54+0x34=0x88处|[issue15](https://github.com/AloneMonkey/iOSREBook-issues/issues/15)|也就是 0x2D054+0x34=0x2D088处|地址写全|
 |yh8577|235页表6-7|表里ADR和ADRP指令对应的例子|[issue6](https://github.com/AloneMonkey/iOSREBook-issues/issues/6)|ADR指令的例子修改为`ADR x1, #0x1234`，<br>ADRP指令的例子修改为`ADRP x1, #0x1234`，<br>ADRP指令对应的含义修改为`base=PC[];base<11:0> = Zeros(12);x1 = base + 0x1234;`|指令的例子写错了，ADRP的含义优化一下。|
+|rhythmkay|238页|; 将 0 和 3 异或，将结果赋给w8，等同于mov w8,0x03|无|; 将 0 和 3 或，将结果赋给w8，等同于mov w8,0x03| 异或 改成 或|
 |Sometimes Naive|288页，倒数3行|分析WahtsApp的消息收发函数|[issue11](https://github.com/AloneMonkey/iOSREBook-issues/issues/11)|分析WhatsApp的消息收发函数|错别字|
 |piaoyunsoft|309页，第8行|Windows、maxOS、Linux<br>需要在Mac OS和iOS上分别安装Frida。<br>在Mac OS中通过如下命令安装Frida。|[issue18](https://github.com/AloneMonkey/iOSREBook-issues/issues/18)|Windows、macOS、Linux<br>需要在macOS和iOS上分别安装Frida。<br>在macOS中通过如下命令安装Frida。|统一使用macOS|
 |piaoyunsoft|341页，第3行|加密后进行静态分析和的结果|[issue19](https://github.com/AloneMonkey/iOSREBook-issues/issues/19)|加密后进行静态分析的结果|多了个 和|
